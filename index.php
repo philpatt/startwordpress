@@ -6,7 +6,6 @@
         get_template_part('content', get_post_format() );
       endwhile; endif;
       ?>
-
       <nav>
         <ul class="pager">
           <li><a href="#">Previous</a></li>

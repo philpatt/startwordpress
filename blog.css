@@ -20,6 +20,7 @@ h6, .h6 {
 }
 
 
+
 /*
  * Override Bootstrap's default container.
  */
@@ -45,15 +46,21 @@ h6, .h6 {
 .blog-nav-item {
   position: relative;
   display: inline-block;
-  padding: 10px;
-  font-weight: 500;
+  padding: 1px;
+  font-weight: 5000;
   color: #cdddeb;
 }
-.blog-nav-item:hover,
-.blog-nav-item:focus {
-  color: #fff;
-  text-decoration: none;
+/*  */
+.blog-nav li {
+  position: relative !important;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;	
 }
+.blog-nav li a {
+  color: #fff;
+}
+
 
 /* Active state gets a caret at the bottom */
 .blog-nav .active {
@@ -164,3 +171,4 @@ h6, .h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
